@@ -1,0 +1,1 @@
+Possible clean-coords bug
