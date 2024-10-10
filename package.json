@@ -1,0 +1,17 @@
+{
+  "name": "turfjs-clean-coords-bug",
+  "version": "1.0.0",
+  "description": "Possible clean-coords bug",
+  "main": "index.js",
+  "scripts": {
+    "exec": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/clean-coords": "^7.1.0",
+    "@turf/helpers": "^7.1.0",
+    "@turf/union": "^7.1.0"
+  }
+}
