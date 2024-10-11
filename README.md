@@ -1,1 +1,1 @@
-Possible clean-coords bug
+Possible clean-coords bug issue https://github.com/Turfjs/turf/issues/2730
