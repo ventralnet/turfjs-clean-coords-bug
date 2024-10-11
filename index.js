@@ -16,14 +16,17 @@ const latlngs = [
 
 const turfPolygon = helpers.polygon([latlngs]);
 
+console.log('original coordinates');
 console.log(turfPolygon.geometry.coordinates);
 
 let cleanCoordsResult = cleanCoords(turfPolygon);
 
+console.log('clean coordinates results');
 console.log(cleanCoordsResult.geometry.coordinates);
 
 const featureCollection = helpers.featureCollection([turfPolygon, turfPolygon]);
 
 let unionResult = union(featureCollection);
 
+console.log('union shape with self (side effect of removing superfluous points)');
 console.log(unionResult.geometry.coordinates);
